@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -40,7 +40,10 @@ a {
   font-style: normal;
 }
 .contacts-link {
+  font-weight: 400;
   font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -53,6 +56,72 @@ a {
   color: #404bbf;
 }
 
+.header-title {
+  width: 100%;
+  background-color: #2c2c47;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  background: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  background: #404bbf;
+}
+
+.team-item {
+  width: 264px;
+  height: auto;
+}
+
+.portfolio-item {
+  width: 360px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .page-footer {
   background-color: #2e2f42;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
